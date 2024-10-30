@@ -1,3 +1,5 @@
 services:
   legacy_api_mock:
     build: .
+    ports:
+      - 8081:8081
