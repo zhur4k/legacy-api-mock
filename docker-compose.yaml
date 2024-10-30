@@ -1,0 +1,3 @@
+services:
+  legacy_api_mock:
+    build: .
