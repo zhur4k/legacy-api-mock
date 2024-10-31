@@ -19,9 +19,9 @@ public class MockLegacyServiceImpl implements MockLegacyService {
 
     public MockLegacyServiceImpl() {
         clients = List.of(
-                new Client("vhh4", UUID.fromString("01588E84-D45A-EB98-F47F-716073A4F1EF"), "Ne", "Abr", "INACTIVE", LocalDate.of(1999, 10, 15), LocalDateTime.of(2021, 11, 15, 11, 51, 59)),
-                new Client("abc1", UUID.fromString("02929A84-B66B-EA88-F47F-223344A1B2C3"), "Al", "Smith", "ACTIVE", LocalDate.of(1985, 5, 12), LocalDateTime.of(2021, 10, 22, 9, 33, 44)),
-                new Client("xyz2", UUID.fromString("0A11BB22-CCCC-DDDD-EEEE-1234567890AB"), "Jane", "Doe", "ACTIVE", LocalDate.of(1990, 3, 8), LocalDateTime.of(2021, 9, 15, 14, 22, 35))
+                new Client("vhh4", UUID.fromString("01588E84-D45A-EB98-F47F-716073A4F1EF"), "Ne", "Abr", "200", LocalDate.of(1999, 10, 15), LocalDateTime.of(2021, 11, 15, 11, 51, 59)),
+                new Client("abc1", UUID.fromString("02929A84-B66B-EA88-F47F-223344A1B2C3"), "Al", "Smith", "200", LocalDate.of(1985, 5, 12), LocalDateTime.of(2021, 10, 22, 9, 33, 44)),
+                new Client("xyz2", UUID.fromString("0A11BB22-CCCC-DDDD-EEEE-1234567890AB"), "Jane", "Doe", "200", LocalDate.of(1990, 3, 8), LocalDateTime.of(2021, 9, 15, 14, 22, 35))
         );
 
         notes = List.of(
